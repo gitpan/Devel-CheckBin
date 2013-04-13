@@ -1,0 +1,17 @@
+.gitignore
+.travis.yml
+Build.PL
+Changes
+LICENSE
+META.json
+README.md
+cpanfile
+lib/Devel/CheckBin.pm
+t/00_compile.t
+t/01_can_run.t
+t/02_can_run.t
+Build.PL
+LICENSE
+META.json
+META.yml
+MANIFEST

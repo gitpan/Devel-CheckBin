@@ -1,0 +1,41 @@
+---
+abstract: 'check that a command is available'
+author:
+  - 'tokuhirom <tokuhirom@gmail.com>'
+build_requires:
+  File::Temp: 0
+  Test::More: 0.98
+configure_requires:
+  CPAN::Meta: 0
+  CPAN::Meta::Prereqs: 0
+  Module::Build: 0.38
+dynamic_config: 0
+generated_by: 'Minilla/v0.0.53, CPAN::Meta::Converter version 2.120921'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Devel-CheckBin
+no_index:
+  directory:
+    - t
+    - xt
+    - inc
+    - share
+    - eg
+    - examples
+    - author
+provides:
+  Devel::CheckBin:
+    file: lib/Devel/CheckBin.pm
+    version: 0.01
+requires:
+  Exporter: 0
+  ExtUtils::MakeMaker: 6.52
+  parent: 0
+  perl: 5.008001
+resources:
+  bugtracker: https://github.com/tokuhirom/Devel-CheckBin/issues
+  homepage: https://github.com/tokuhirom/Devel-CheckBin
+  repository: git://github.com/tokuhirom/Devel-CheckBin.git
+version: 0.01
